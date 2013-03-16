@@ -4,7 +4,7 @@
 #include "types.h"
 
 /*
- *	types
+ *
  */
 struct line_f
 {
@@ -13,24 +13,6 @@ struct line_f
 };
 
 typedef vector<double> double_vec;
-
-/*
-struct rgba_t
-{
-	uint32_t raw;
-};
-
-
-/*
- *	double -> color, aka palette mapping
- *
-struct rasterizer
-{
-	__interface(rasterizer);
-
-	virtual bool rasterize_line(uint w, double * val, rgba_t * col) = 0;
-};
-*/
 
 /*
  *
